@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: lightskyblue;
+}
+
+h1{
+  color: #333;
+    font-size: 2.5em;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    transform: rotate(2deg);
+}
+
+.pet-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.pet {
+  cursor: pointer;
+  background-color: white;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 8px;
+  width: 240px;
+}
+
+.pet.selected {
+  border: 2px solid red;
+}
+
+.emoji {
+  font-size: 70px;
+  cursor: pointer;
+  margin-top: 10px;
+}
